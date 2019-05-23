@@ -1,17 +1,21 @@
-# single-core
-单核工作法/番茄工作法，受《单核工作法图解》启发，由《黑客与画家》鼓励。它被用来解决“有一种失败叫瞎忙”的问题, 当前正在构建基础版本。
+# demo
 
-## 核心组件
-+ [ ] [**全景闹钟**](docs/panoramic-alarm-clock.md)　每当分针走到竖直位置就进行提醒，当前的任务是否重要，是否应该休息一下。
-+ [ ] [**快捷清单**](docs/quick-menu.md)  当前主要关注的任务，最多五个任务，并可以选择其中一个锁定
-+ [ ] **集草器清单** 所有任务收集清单，由于有些任务是不重要的，有些是永远不会做的，所以叫集草器清单
-+ [ ] **统计报告**  我们需要知道时间浪费在哪里了，哪些任务永远不会做。
+> Front and rear separation
 
-## 设计原则
-要求界面尽可能简洁，交互步骤尽可能少并且符合直觉。让用户竟可能关注任务，而不应在该应用上分心。
+## Build Setup
 
-## 许可
-仅限个人使用，禁止用于任何盈利目的
+``` bash
+# install dependencies
+npm install
 
-## 贡献
-任何贡献都是受欢迎的，包括提问，提需求，测试，提交代码等
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+```
+
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
